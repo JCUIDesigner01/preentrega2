@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <!----CABECERA---->
+    <header class="header">
+        <!--Navegador-->
+        <nav class="section__nav">
+        <!--Componente nav-->
+        <ul class="nav">
+            <li><a class="nav__item" href="../index.html">Inicio</a></li>
+            <li><a class="nav__item" href="./sobre_mi.html">Sobre mi</a></li>
+            <li><a class="nav__item" href="./proyectos.html">Proyectos</a></li>
+            <li><a class="nav__item" href="./servicios.html">Servicios</a></li>
+            <li class="nav__item nav__item--active">Contacto</li><!--Activado-->
+        </ul>
+        </nav>
+        <!--Contenido del banner-->
+        <section class="section__banner">
+            <div class="banner__tag">¿Necesitas ayuda?</div>
+            <!--Titulo-->
+            <h1>Conversemos</h1>
+            <p>Estoy siempre abierto a nuevos desafíos creativos y colaboraciones que generen valor. Si tenés un proyecto en mente o querés mejorar la experiencia digital de tu producto, será un placer escucharte. Completá el formulario o escribime directamente: responderé a la brevedad para coordinar una reunión. El diseño de interfaces es una herramienta estratégica para conectar con tus usuarios y hacer crecer tu producto.</p>
+        </section>
+    </header>
+
+    <!----CONTENIDO---->
+    <section class="section__content">
+        <!--Grupo de inputs-->
+        <form class="inputs" action="">
+            <!--Nombre y apellido-->
+            <div class="inputs__input">
+                <label  class="label" for="">Nombre y apellido</label>
+                <input class="input__box" type="text" name="name" id="name">
+            </div>
+            <!--Teléfono-->
+            <div class="inputs__input">
+                <label  class="label" for="">Teléfono</label>
+                <input class="input__box" type="number" name="phone number" id="phone number">
+            </div>
+            <!--Correo electronico-->
+            <div class="inputs__input">
+                <label class="label" for="">Correo electrónico</label>
+                <input class="input__box" type="email" name="email" id="email">
+            </div>
+            <!--Mensaje-->
+            <div class="inputs__input">
+                <label class="label" for="">Mensaje</label>
+                <textarea class="textarea__box" name="message" id="message"></textarea>
+            </div>
+            <!--Botones-->
+            <div class="buttons_group">
+                <input class="button__secondary button__secondary--lg" type="reset" value="Borrar">
+                <input class="button__primary button__primary--lg" type="submit" value="Enviar">
+            </div>
+        </form>
+
+    </section>
+
+    <!----FOOTER---->
+    <footer class="footer">
+        © 2025. Todos los derechos reservados.
+    </footer>
+</body>
+</html>
